@@ -1,5 +1,6 @@
 # WebEye (Image Captioning Engine)
-Web_Eye is a product targeting the visually impaired. it's a browser extension that when enabled generates captions for images and translates them to any language. Any screen reader can then be used to read the generated captions while surfing the internet.
+Web_Eye is a product targeting the visually impaired. it's a browser extension that when enabled generates captions for images and translates them to any language. Any screen reader can then be used to read the generated captions while surfing the internet.\
+Report name is : WebEye_Final_Report
 # Enabling the firefox browser extension
 1- Type "about:debugging" in the URL.\
 2- Choose " This Firefox " option from left under the " Setup " option.\
