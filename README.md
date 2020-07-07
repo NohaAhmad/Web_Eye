@@ -24,6 +24,8 @@ Notes:-\
 
 # Testing the Deep Learning Engine without the extension
 
+* You can download the weights through this link:-
+https://drive.google.com/file/d/1aEh2SwqWsVvzL5ndZl92p8-6VHTnxAXb/view?usp=sharing
 * Run " caption.py " file found in this path:- " /Run/caption.py " through this command:-
 
 python caption.py --img='woods.jpg' --model='BEST_checkpoint_flickr8k_5_cap_per_img_4_min_word_freq_Last.pth.tar' --word_map='WORDMAP_flickr8k_5_cap_per_img_4_min_word_freq.json' --beam_size=5
@@ -36,3 +38,7 @@ python caption.py --img='woods.jpg' --model='BEST_checkpoint_flickr8k_5_cap_per_
 If you run the above command you will get an output like this. "Depending on your image"
 
 ![alt text](https://raw.githubusercontent.com/NohaAhmad/Web_Eye/master/Images/woods.png)
+
+# Future Work
+1- We will be working on handling multiple responses at the same time to do captioning without any strange behaviour in the server.
+   This can be achieved through Queuing or buffering the responses.
